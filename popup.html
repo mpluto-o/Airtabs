@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Airtabs</h1>
+      <span id="my-device-name">Pluto's Mac</span>
+    </header>
+
+    <div class="section">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+        <h3 style="margin: 0;">Open Tabs</h3>
+        <label style="font-size: 12px; color: #007aff; cursor: pointer;">
+          <input type="checkbox" id="select-all-btn" checked> Select All
+        </label>
+      </div>
+      
+      <div id="tab-list" class="card" style="max-height: 200px; overflow-y: auto;">
+      </div>
+      
+      <button id="send-btn" class="primary-btn">Broadcast (0)</button>
+    </div>
+
+    <div class="section">
+      <h3 id="history-toggle" style="cursor: pointer; display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+        Network History <span id="toggle-icon" style="font-size: 10px;">▼</span>
+      </h3>
+      
+      <div id="received-tabs" class="card" style="max-height: 250px; overflow-y: auto; display: none; flex-direction: column; gap: 12px;">
+        <p style="font-size: 13px; color: #86868b; text-align: center;">Fetching from cloud...</p>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
