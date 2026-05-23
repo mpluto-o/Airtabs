@@ -20,10 +20,11 @@
 Currently, Airtabs is in development and can be installed as an unpacked extension.
 
 ### 1. Clone the repository
-\`\`\`bash
-git clone https://github.com/mpluto-o/Airtabs.git
+
+```bash
+git clone [https://github.com/mpluto-o/Airtabs.git](https://github.com/mpluto-o/Airtabs.git)
 cd Airtabs
-\`\`\`
+```
 
 ### 2. Set up Firebase
 To keep your data private, Airtabs requires you to connect your own Firebase Realtime Database. 
@@ -32,7 +33,7 @@ To keep your data private, Airtabs requires you to connect your own Firebase Rea
 3. Register a web app in your Firebase project to get your configuration keys.
 4. Create a file named `firebase-config.js` in the root of this extension directory and add your keys:
 
-\`\`\`javascript
+```javascript
 export const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
   authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
@@ -42,7 +43,7 @@ export const firebaseConfig = {
   messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
   appId: "YOUR_APP_ID"
 };
-\`\`\`
+```
 
 ### 3. Load into any Chromium based browser
 1. Open Chrome (or any Chromium browser like Brave/Edge) and navigate to `chrome://extensions/`.

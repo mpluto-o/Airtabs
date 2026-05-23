@@ -1,0 +1,6 @@
+.DS_Store
+node_modules/
+.vscode/
+.idea/
+firebase-config.js
+airtabs.xpi
