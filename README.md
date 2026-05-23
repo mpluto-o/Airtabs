@@ -13,6 +13,8 @@
 - **💻 Cross-Platform**: Send tabs from your Mac, open them on your PC (Safari support coming soon!).
 
 ## 📸 Sneak Peek
+<img width="355" height="537" alt="Screenshot 2026-05-23 at 11 04 26 AM" src="https://github.com/user-attachments/assets/53e6e909-09cd-4340-a2a7-ddbdbe72452a" />
+<img width="357" height="263" alt="Screenshot 2026-05-23 at 11 02 49 AM" src="https://github.com/user-attachments/assets/3033bc0c-2d21-4d31-8462-62223ea39033" />
 
 
 ## 🛠️ Installation (Developer Mode)
