@@ -53,12 +53,16 @@ export const firebaseConfig = {
 3. Click **Load unpacked** and select the `Airtabs` folder you just cloned.
 4. Pin the extension to your toolbar and start syncing!
 
-## 🛣️ Roadmap
-- [x] Chromium extension core functionality
-- [x] Firebase Realtime Database integration
-- [ ] Convert and package for Safari via Xcode
-- [ ] Implement Firebase App Check for enhanced security
-- [ ] Add Tab Group support
+## 🛣️ Roadmap (Future Versions)
+
+**Current Status:** v1.0 (Chromium Core)
+
+- [x] Chromium extension core functionality (Chrome, Edge, Brave)
+- [x] Firebase Realtime Database integration for instant broadcasting
+- [ ] **Cross-Browser Expansion:** Convert and package the extension natively for Safari (via Xcode) and Firefox.
+- [ ] **Strict Database Security:** Lock down the open Firebase Realtime Database by implementing strict Security Rules and Firebase App Check to block any unauthorized outside access.
+- [ ] **Mobile Device Support:** Bring Airtabs to phones (iOS/Android) so you can push and receive tabs directly from your mobile device.
+- [ ] **Tab Group Syncing:** Add the ability to broadcast entire Tab Groups at once.
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](../../issues).
