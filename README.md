@@ -24,7 +24,7 @@ Currently, Airtabs is in development and can be installed as an unpacked extensi
 ### 1. Clone the repository
 
 ```bash
-git clone [https://github.com/mpluto-o/Airtabs.git](https://github.com/mpluto-o/Airtabs.git)
+git clone https://github.com/mpluto-o/Airtabs.git
 cd Airtabs
 ```
 
